@@ -49,6 +49,7 @@ body {
     margin-right: 20px;
 }
 h1{
+    align-self: center;
     font-weight: 900;
     size: 48px;
     color: #F9FAF8;
@@ -65,19 +66,97 @@ p {
     border: 0;
 }
 h2 {
-    size: 36px;
+    font-size: 36px;
     font-weight: 900;
     color: #1F2937;
+    text-align: center;
+    margin-top: 50px;
+}
+.cards-wrap {
+    margin-bottom: 80px;
+    
+    
+}
+.card-img {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 10px;
+    border: solid #3882F6;
+}
+.card-container {
+    display: flex;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 50px;
 }
 
-
-
-
-
-
-
-
-
+.card-text {
+    color: #1F2937;
+    margin-top: -15px;
+    text-align: center;
+    
+    
+}
+.card {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.bx-quote {
+    background-color: #E5E7EB;
+    
+}
+.quote {
+    margin: 150px;
+    color: #1F2937;
+    font-style: italic;
+    font-size: 36px;
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+.signature {
+    margin-bottom: 150px;
+    text-align: end;
+    margin-right: 500px;
+    margin-top: -125px;
+    font-weight: bold;
+    font-size: 36px;
+    
+}
+.bx-sign-up {
+    margin: 100px;
+}
+.bx-text {
+    
+    
+}
+.bx-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 150px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+h3 {
+    font-weight: bold;
+    color: #E5E7EB;
+    font-size: 30px;
+    margin-bottom: -10px;
+}
+.bx-button {
+    align-self: center;
+    background-color:#3882F6;
+    color: #E5E7EB;
+    font-weight:bold;
+    padding: 5px 20px;
+    border-radius: 10px;
+    border: solid #E5E7EB;
+    font-size: 20px;
+    
+}
 
 .footer {
     background-color: #1F2937;
